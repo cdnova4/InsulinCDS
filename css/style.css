@@ -1,0 +1,64 @@
+/*Created by Janine Jay, Reed Arnold, and Christian DeGenova*/
+
+*{
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.page_content{
+    width: 82%;
+    float: right;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+tr:hover:not(#high) td{
+    background: #c2c4c4;
+}
+th{
+    background-color: #7A7A7A;
+    color: #fff;
+}
+
+head{
+	align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: #59DCFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+li a {
+    display: block;
+    background-color: #59DCFF;
+    color: #fff;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #7A7A7A;
+    color: #fff;
+}
+
+li a:hover:not(.active) {
+    background-color: #fff;
+    color: #000;
+}
